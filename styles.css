@@ -1,0 +1,217 @@
+#navbar{
+ display: flex;
+ justify-content: baseline;
+ align-items: center;
+ top: 0px;
+ position: sticky;
+  
+ }
+ html{
+   scroll-behavior: smooth;
+ }
+ 
+
+ #navbar::before{
+   content: "";
+   background-color: black;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0.7;
+   z-index: -1;
+   
+ }
+#logoimg{
+  margin: 10px 34px;
+
+
+}
+
+
+ #a1, a{
+ margin-right: 5vw;
+ color: white;
+ text-decoration: none;
+ font-size: 1.5rem;
+ border-radius: 10px;
+
+
+ }
+ #a1{
+  margin-left: 10vw;
+}
+ #a1 a:hover{
+   
+   background-color: azure;
+   color: black;
+ 
+
+ }
+ *{
+   padding: 0;
+   margin: 0;
+  box-sizing: border-box;
+  
+ }
+ #home1{
+ position: absolute;
+ background: url('https://cdn.tasteatlas.com/Images/Dishes/e668e32ae1a3423c95fbd4d77f8c940c.jpg');
+ background-size: cover;
+ width: 100vw;
+ height: 642px;
+ z-index: -1;
+ }
+ #home, h1{
+   color: white;
+   text-align: center;
+   font-size: 4.5rem;
+   margin-top: 30vh;
+   
+ }
+ #home, p{
+   color: white;
+   text-align: center;
+   font-size: 1.5rem;
+ }
+ #home, #button1{
+  
+   background-color: brown;
+   color: white;
+   border: 1px solid;
+   height: 40px; width: 130px;
+   border-radius: 10px;
+   margin-left: 45vw;
+   margin-top: 10vh;
+   font-size: 1.2rem;
+   }
+ #sec{
+   border: 2px solid black;
+ }
+ 
+ #hname{
+   color: black;
+   margin-top: 110vh;
+ }
+  #services{
+    margin-top: 5vh;
+    display: flex;
+  }
+  .dabba{
+ text-align: center;
+    
+    border-radius: 28px;
+   margin: 2px 55px;
+   padding: 34px;
+   background-color: #f2f2f2;
+   margin-bottom: 20px;
+  }
+ 
+  .dabba:hover{
+   box-shadow: 13px 0px 0px 13px #d88b33;
+   border-left: 7.5px solid;
+ 
+ 
+  }
+ 
+ 
+ 
+  #services, .center{
+    color: black;
+  }
+  #services, img{
+   width:auto;
+ 
+   
+  }
+  .hs{
+    font-size: 2rem;
+    
+  }
+  .hc{
+    color: rgb(42, 82, 68);
+    margin-top: -1vh;
+  
+ 
+  }
+  #clients{
+    
+    height: 400px;
+    width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+    background: url(https://wallpapercave.com/wp/wp4565867.png);
+    background-size:100vw 400px;
+    overflow: hidden;
+ 
+   }
+ #hp{
+   margin-left: 27px;
+ }
+ #imgp{
+   margin-top: -5vh;
+ 
+ }
+ 
+ #us1{
+   height: 550px;
+   width: 100%;
+ 
+   background: url(https://wallpapercave.com/wp/wp4565867.png);
+   background-size:100vw 400px;
+ }
+ #us1, #cus{
+   color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ #cus{
+   margin-top: -3vh;
+   text-shadow: 4px 5px #58af49;
+   text-decoration:underline;
+ 
+ }
+ form{
+   margin-top: 13vh;
+   font-size: 1.3rem;
+   font-style: bold;
+   font-weight: bold;
+ }
+ form input{
+   height: 40px;
+   width: 550px;
+   border-radius: 10px;
+ }
+ form textarea {
+   height: 130px;
+   width: 550px;
+   border-radius: 10px;
+ }
+ #button{
+   height: 30px;
+   width: 100px;
+   border-radius: 10px;
+   margin-left: 16vw;
+   background-color: rgb(225, 8, 8);
+   
+ }
+ #button:hover{
+   cursor: pointer;
+   height: 35px;
+   width: 110px;
+ 
+ }
+ #ft{
+   height: 55px;
+   background-color: black;
+   color: #f2f2f2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
